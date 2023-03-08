@@ -28,6 +28,5 @@ public class SampleController {
 	@GetMapping("/accessError")
 	public void accessDenied(Authentication authentication, Model model) {
 		model.addAttribute("msg","Access Denied");
-	}
-	
+	}	
 }
